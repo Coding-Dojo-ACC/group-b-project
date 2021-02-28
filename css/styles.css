@@ -23,4 +23,11 @@ section {
     justify-content: flex-start;
     align-items: center;
     background-image: url(http://images.craftsnherbs.com/beedev/flyingbee.gif);
+    text-align: center;
+}
+section img {
+    width: 150px;
+    z-index: 1;
+    border-radius: 20%;
+    box-shadow: -5px 5px #808080;
 }
