@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to my  Bee project!<img src='./img/bee-icon.jpg' alt='Bee' /></h1>
+        <h1 id='color' onclick="changeColor()">Welcome to my  Bee project!<img src='./img/bee-icon.jpg' alt='Bee' /></h1>
         <nav>
             <a href='index.html'>Home</a>
         </nav>
@@ -23,7 +23,7 @@
         </div>
         <div class='img'>
             <img src='./img/honeybee.jpg' alt='HoneyBee' />
-            <img src='./img/bee.png' alt='bee' />
+            <img src='./img/bee.png' alt='bee' id='hide' onClick="hideImage()" />
             <img src='./img/cuteBee.png' alt='Cute Bee' />
             <img src='./img/funBee.png' alt='Fun Bee' />
         </div>
@@ -53,5 +53,6 @@
             <button type="submit" class="btn btn-warning bg-yellow px-3">Submit</button>
           </form>
     </footer>
+    <script src='./js/scripts.js'></script>
 </body>
 </html>
